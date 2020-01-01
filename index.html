@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0" />
+  <title>My Portfolio 1</title>
+<!--  <link rel="stylesheet" href="css/reset.css">-->
+  <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/drawerMenu.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.2.1/font-awesome-animation.css" type="text/css" media="all" />
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script>
+    $(function() {
+      $('#navToggle').click(function(){//headerに .openNav を付加・削除
+        $('header').toggleClass('openNav');
+      });
+    });
+  </script>
+</head>
+<body>
+  <header>
+    <div class="header-logo-Wrapper">
+      <h1><a class="header-logo" href="index.html">Yukinko's Portfolio</a></h1>
+    </div>
+    <div id="navToggle">
+      <div>
+        <span></span> <span></span> <span></span>
+      </div>
+    </div><!--#navToggle END-->
+    <nav>
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#service">SERVICE</a></li>
+        <li><a href="#skill">SKILL</a></li>
+        <li><a href="#work">WORK</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section class="home-section bg01 fixed-bg" id="home">
+    <div class="container">
+      <h1 class="site-title">Welcome!<br>Yukinko's Portfolio.</h1>
+      <p class="btn-more-slider"><a href="#about" class="btn-more">More</a></p>
+    </div>
+  </section>
+  <section class="about-section" id="about">
+    <div class="container">
+      <h2 class="heading-title">
+        ABOUT ME
+      </h2>
+
+      <div class="about-description-wrapper">
+        <div class="about-logo-wrapper">
+<!--
+          <div class="about_logo">
+            <span>YUKINKO</span>
+          </div>
+-->
+          <div class="about-photo">
+            <img src="images/self-photo.JPG" class="self-photo">
+          </div>
+        </div>
+        <div class="about-text">
+          <h3>福岡県出身、福岡県在住のフリーランスエンジニアの「ゆきんこ」です。<br><br>
+          システムエンジニアとしては８年ほど、最近では主にC/C++を使ったシステム開発をしていました。<br>
+          現在はWEBエンジニアの仕事をメインにしています。<br>
+          皆様の気持ちや思いを形にして届けるお手伝いをしたいと考えています。<br><br>
+          好きなものは母から継いだ着物、おいしいコーヒー、読書。</h3>
+          <a href="https://twitter.com/yukinko_2011"><i class="fab fa-twitter-square twitter-icon"></i></a>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <section class="service-section" id="service">
+    <div class="container">
+      <h2 class="heading-title">
+      SERVICE
+      </h2>
+    </div>   
+    <!--- Cards -->
+    <div class="container-fluid padding">
+      <div class="row padding">
+       
+        <div class="col-lg-4">
+          <div class="card">
+            <i class="fas fa-check faa-bounce animated icon-format"></i>
+            <div class="card-body">
+              <h3 class="card-title">Webサイト（LP）制作</h3>
+              <h4 class="card-subtitle ">¥30,000-<br>納期目安：3週間以内</h4>
+              <p class="card-text">1ページまたは複数ページのWebサイトをご要望に合わせて作成いたします。<br><br>こちらがご用意するテンプレートからお客様のイメージに最も近いものをお選びいただき、ご希望に合わせて細部のカスタマイズをいたします。</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4">
+          <div class="card">
+            <i class="fas fa-sync-alt faa-spin animated icon-format"></i>
+            <div class="card-body">
+              <h3 class="card-title">運用・更新サポート</h3>
+              <h4 class="card-subtitle">¥5,000-/月<br>納期目安：-</h4>
+              <p class="card-text">完成したWebページについて、コンテンツ・ページの差し替え・追加などを承り、サイトの運用・更新のサポートをいたします。<br><br>※修正・更新の範囲が膨大な場合など、ご依頼の内容によっては追加料金が発生することがあります。</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4">
+          <div class="card">
+            <i class="fas fa-expand faa-burst animated icon-format"></i>
+            <div class="card-body">
+              <h3 class="card-title">レスポンシブ対応</h3>
+              <h4 class="card-subtitle">¥15,000-<br>納期目安：3週間以内</h4>
+              <p class="card-text">レスポンシブ対応とは、Webページのレイアウトやデザインをユーザーの画面サイズに応じて最適化して表示させることができるようにすることです。<br><br>お客様の既存のWebページに修正を加え、レスポンシブなWebページに改良いたします。</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <section class="skill-section" id="skill">
+    <div class="container">
+      <h2 class="heading-title">
+        SKILL
+      </h2>
+      <p class="skill-title">主に使用する言語</p>
+    </div>
+    <div class="skills-container">
+      <div class="skill-box">
+        <i class="fab fa-html5 icon-format"></i>
+        <h3 class="skill-name">HTML5</h3>
+      </div>
+      <div class="skill-box">
+        <i class="fab fa-css3 icon-format"></i>
+        <h3 class="skill-name">CSS3</h3>
+      </div>
+      <div class="skill-box">
+        <i class="fab fa-sass icon-format"></i>
+        <h3 class="skill-name">SASS</h3>
+      </div>
+      <div class="skill-box">
+        <i class="fab fa-js-square icon-format"></i>
+        <h3 class="skill-name">JavaScript/JQuery</h3>
+      </div>
+      <div class="skill-box">
+        <i class="fab fa-bootstrap icon-format"></i>
+        <h3 class="skill-name">Bootstrap4</h3>
+      </div>
+      <div class="skill-box">
+        <i class="fab fa-php icon-format"></i>
+        <h3 class="skill-name">PHP</h3>
+      </div>      
+    </div>
+  </section>
+
+  <section class="work-section" id="work">
+    <div class="container">
+      <h2 class="heading-title">
+        WORK
+      </h2>
+      <p>※模写作品も掲載されています。</p>
+      <div class="btn-contents">
+        <a href="" class="btn-category all" data-filter="all">ALL</a>
+        <a href="" class="btn-category web" data-filter="web">WEBSITE</a>
+        <a href="" class="btn-category blog" data-filter="blog">BLOGSITE</a>
+      </div>
+      <ul class="site-list">
+        <li class="web" data-category="web"><img src="images/work01.png"></li>
+        <li class="blog" data-category="blog"><img src="images/work02.png"></li>
+      </ul>
+    </div>
+    
+  </section>
+
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <h2 class="heading-title">
+        CONTACT
+      </h2>
+      <p class="skill-title">制作の依頼・ご相談などお気軽にお問い合わせください。<br>下記フォームよりご記入ください。必須の項目は必ずご記入お願いします。</p>
+    </div>
+
+    <div class="form-wrapper">
+      <div class="form-list">
+        <form  class="mailForm" action="mail.php" method="post">
+          <p>貴社名</p>
+          <input type="text" name="company" id="company" value size="40">
+          <p>お名前<span class="require">必須</span></p>
+          <input required type="text" name="name" id="name" value size="40">
+          <p>メールアドレス<span class="require">必須</span></p>
+          <input required type="email" name="email" id="email" value size="40">
+          <p>お問い合わせ内容<span class="require">必須</span></p>
+          <textarea required name="content" id="content" class="form-message"></textarea>
+          <input type="hidden" id="token" value="1234567">
+          <p><input type="submit" value="送信" class="btn-submit"></p>
+        </form>
+      </div>
+    </div>
+    <p id="pageTop"><a href="#"><i class="fas fa-chevron-up"></i></a></p>
+  </section>
+  
+  <div class="footer-section">
+    <div class="container">
+    <p>&copy Copyright | Yukinko All Right Reserved</p>
+    </div>
+  </div>
+  <script>
+    $(function(){
+      var $btn = $('.btn-contents [data-filter]'),
+          $list = $('.site-list [data-category]');
+
+      $btn.on('click', function(e) { // aタグの処理キャンセル
+        e.preventDefault();
+
+        var $btnTxt = $(this).attr('data-filter');
+
+        if ($btnTxt == 'all'){
+          $list.fadeOut().promise().done(function() {
+            $list.addClass('animate').fadeIn();
+          });
+        } else {
+          $list.fadeOut().promise().done(function() {
+            $list.filter('[data-category = "' + $btnTxt + '"]').addClass('animate').fadeIn();
+          });
+        }
+      });
+    });
+  </script>
+  <script>
+    //■page topボタン
+    $(function(){
+      var topBtn=$('#pageTop');
+      topBtn.hide();
+      //◇ボタンの表示設定
+      $(window).scroll(function(){
+        if($(this).scrollTop()>80){
+          //---- 画面を80pxスクロールしたら、ボタンを表示する
+          topBtn.fadeIn();
+        }else{
+          //---- 画面が80pxより上なら、ボタンを表示しない
+          topBtn.fadeOut();
+        }
+      });
+      // ◇ボタンをクリックしたら、スクロールして上に戻る
+      topBtn.click(function(){
+        $('body,html').animate({
+          scrollTop: 0},500);
+        return false;
+      });
+    });
+  </script>
+</body>
+</html>
