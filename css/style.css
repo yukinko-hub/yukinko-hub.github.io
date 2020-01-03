@@ -443,9 +443,6 @@ header ul li a:hover {
   .work-contents {
     margin-bottom: 200px;
   }
-  _::-webkit-full-page-media, _:future, :root .work-contents {
-    margin-bottom: 300px;
-  }
   .site-list li{
     float: none;
     width: auto;
@@ -473,6 +470,18 @@ header ul li a:hover {
     margin: 10px;
   }
   .site-list img{
+    width: 300px;
+    height: 200px;
+  }
+
+  _::-webkit-full-page-media, _:future, :root .work-contents {
+    margin-bottom: 300px;
+  }
+  _::-webkit-full-page-media, _:future, :root .site-list li{
+    width: 45%;
+    margin: 10px;
+  }
+  _::-webkit-full-page-media, _:future, :root .site-list img{
     width: 300px;
     height: 200px;
   }
@@ -514,6 +523,7 @@ header ul li a:hover {
   .form-message{
     width:300px;
   }
+
 }
 /*safari用*/
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
