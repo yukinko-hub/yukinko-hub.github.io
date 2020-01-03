@@ -475,15 +475,14 @@ header ul li a:hover {
   }
 
   /*safari用*/
-  _::-webkit-full-page-media, _:future, :root .work-contents {
+  .work-contents {
     margin-bottom: 300px;
-    text-align: center;
   }
-  _::-webkit-full-page-media, _:future, :root .site-list li{
-    width: 31.333333%;
+  .site-list li{
+    width: 45%;
     margin: 10px;
   }
-  _::-webkit-full-page-media, _:future, :root .site-list img{
+  .site-list img{
     width: 300px;
     height: 200px;
   }
