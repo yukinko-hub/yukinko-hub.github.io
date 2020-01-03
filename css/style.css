@@ -512,7 +512,12 @@ header ul li a:hover {
     width:300px;
   }
 }
-
+/*safari用*/
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  _::-webkit-full-page-media, _:future, :root .work-contents {
+    margin-bottom: 200px;
+  }
+}
 /*IE用*/
 _:-ms-lang(x)::-ms-backdrop, .skill-box {
   padding: 50px;
