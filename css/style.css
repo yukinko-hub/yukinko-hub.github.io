@@ -515,7 +515,7 @@ header ul li a:hover {
 /*safari用*/
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   _::-webkit-full-page-media, _:future, :root .work-contents {
-    margin-bottom: 200px;
+    margin-bottom: 300px;
   }
   _::-webkit-full-page-media, _:future, :root .site-list li{
     width: 45%;
