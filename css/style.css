@@ -486,9 +486,6 @@ header ul li a:hover {
     width: 300px;
     height: 200px;
   }
-  .contact-section p{
-    text-align: center;
-  }
 }
 @media(max-width:600px){
   .card{
