@@ -467,6 +467,21 @@ header ul li a:hover {
   }
 }
 @media(max-width:600px){
+  .form-wrapper{
+    margin: 0;
+  }
+  .form-list{
+    margin-left: 10px;
+    width:200px;
+    text-align: center;
+  }
+  .form-list p{
+    padding-top: 10px;
+  }
+  .btn-submit{
+    width:100px;
+    height: 30px;
+  }
   .form-message{
     width:300px;
   }
