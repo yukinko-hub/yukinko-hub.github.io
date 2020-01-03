@@ -454,7 +454,7 @@ header ul li a:hover {
 }
 @media(min-width:768px) and (max-width:1200px){
   .btn-more-slider{
-    margin-top: 50px;
+    margin-top: 10px;
   }
   .site-list li{
     width: 45%;
