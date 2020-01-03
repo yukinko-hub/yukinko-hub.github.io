@@ -473,13 +473,12 @@ header ul li a:hover {
     width: 300px;
     height: 200px;
   }
-
-  /*safari用*/
   .work-contents {
     margin-bottom: 300px;
   }
   .site-list li{
-    width: 45%;
+    float: left;
+    width: 31.33333%;
     margin: 10px;
   }
   .site-list img{
