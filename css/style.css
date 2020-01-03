@@ -78,7 +78,7 @@ header ul li a:hover {
   font-weight: bold;
   text-decoration: none;
 }
-
+/*ipad safali対策*/
 .fixed-bg::before{
   content:"";
   display:block;
@@ -91,6 +91,7 @@ header ul li a:hover {
   background:url(../images/PC-woman.jpg) center no-repeat;
   background-size:cover;
 }
+/*ipad safali対策のため削除*/
 /*
 .fixed-bg {
   position: relative;
