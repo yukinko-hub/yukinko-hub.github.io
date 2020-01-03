@@ -443,6 +443,9 @@ header ul li a:hover {
   .work-contents {
     margin-bottom: 200px;
   }
+  _::-webkit-full-page-media, _:future, :root .work-contents {
+    margin-bottom: 300px;
+  }
   .site-list li{
     float: none;
     width: auto;
