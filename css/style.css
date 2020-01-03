@@ -517,6 +517,14 @@ header ul li a:hover {
   _::-webkit-full-page-media, _:future, :root .work-contents {
     margin-bottom: 200px;
   }
+  _::-webkit-full-page-media, _:future, :root .site-list li{
+    width: 45%;
+    margin: 10px;
+  }
+  _::-webkit-full-page-media, _:future, :root .site-list img{
+    width: 300px;
+    height: 200px;
+  }
 }
 /*IE用*/
 _:-ms-lang(x)::-ms-backdrop, .skill-box {
