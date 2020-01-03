@@ -79,18 +79,29 @@ header ul li a:hover {
   text-decoration: none;
 }
 
+.fixed-bg::before{
+  content:"";
+  display:block;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:-1;
+  width:100%;
+  height:100vh;
+  background:url(../images/PC-woman.jpg) center no-repeat;
+  background-size:cover;
+}
+/*
 .fixed-bg {
   position: relative;
   min-height:100vh;
+  background-image: url(../images/PC-woman.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
 }
-.bg01{
-/*  background-image: url(../images/splash.jpg);*/
-  background-image: url(../images/PC-woman.jpg);
-}
+*/
 .home-section .container{
   padding: 150px;
   margin-bottom: 100px;
