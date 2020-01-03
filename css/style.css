@@ -474,11 +474,13 @@ header ul li a:hover {
     height: 200px;
   }
 
+  /*safari用*/
   _::-webkit-full-page-media, _:future, :root .work-contents {
     margin-bottom: 300px;
+    text-align: center;
   }
   _::-webkit-full-page-media, _:future, :root .site-list li{
-    width: 45%;
+    width: 31.333333%;
     margin: 10px;
   }
   _::-webkit-full-page-media, _:future, :root .site-list img{
@@ -524,20 +526,6 @@ header ul li a:hover {
     width:300px;
   }
 
-}
-/*safari用*/
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  _::-webkit-full-page-media, _:future, :root .work-contents {
-    margin-bottom: 300px;
-  }
-  _::-webkit-full-page-media, _:future, :root .site-list li{
-    width: 45%;
-    margin: 10px;
-  }
-  _::-webkit-full-page-media, _:future, :root .site-list img{
-    width: 300px;
-    height: 200px;
-  }
 }
 /*IE用*/
 _:-ms-lang(x)::-ms-backdrop, .skill-box {
